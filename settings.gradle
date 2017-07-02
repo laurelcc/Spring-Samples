@@ -1,2 +1,6 @@
-rootProject.name = 'own-samples'
+rootProject.name = 'spring-samples'
+include 'social-click'
+include 'social-github'
+include 'auth-server'
+include 'upload-file'
 

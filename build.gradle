@@ -1,28 +1,2 @@
-group 'com.soong.samples'
+group 'org.soong.gradle'
 version '1.0-SNAPSHOT'
-
-buildscript {
-    repositories{
-        mavenCentral()
-    }
-    dependencies {
-        version = '1.5.2'
-        classpath('org.springframework.boot:spring-boot-gradle-plugin:${version}.RELEASE')
-    }
-}
-
-apply plugin: 'java'
-apply plugin: 'eclipse'
-apply plugin: 'idea'
-apply plugin: 'org.springframework.boot'
-
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    compile('org.springframework.boot:spring-boot-starter')
-}

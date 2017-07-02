@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-server/auth-server.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-server/auth-server.iml" group="auth-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-server/auth-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-server/auth-server_main.iml" group="auth-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-server/auth-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-server/auth-server_test.iml" group="auth-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/social-click/social-click.iml" filepath="$PROJECT_DIR$/.idea/modules/social-click/social-click.iml" group="social-click" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/social-click/social-click_main.iml" filepath="$PROJECT_DIR$/.idea/modules/social-click/social-click_main.iml" group="social-click" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/social-click/social-click_test.iml" filepath="$PROJECT_DIR$/.idea/modules/social-click/social-click_test.iml" group="social-click" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/social-github/social-github.iml" filepath="$PROJECT_DIR$/.idea/modules/social-github/social-github.iml" group="social-github" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/social-github/social-github_main.iml" filepath="$PROJECT_DIR$/.idea/modules/social-github/social-github_main.iml" group="social-github" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/social-github/social-github_test.iml" filepath="$PROJECT_DIR$/.idea/modules/social-github/social-github_test.iml" group="social-github" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-samples.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/upload-file/upload-file.iml" filepath="$PROJECT_DIR$/.idea/modules/upload-file/upload-file.iml" group="upload-file" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/upload-file/upload-file_main.iml" filepath="$PROJECT_DIR$/.idea/modules/upload-file/upload-file_main.iml" group="upload-file" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/upload-file/upload-file_test.iml" filepath="$PROJECT_DIR$/.idea/modules/upload-file/upload-file_test.iml" group="upload-file" />
+    </modules>
+  </component>
+</project>
