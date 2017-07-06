@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-server/auth-server.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-server/auth-server.iml" group="auth-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-server/auth-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-server/auth-server_main.iml" group="auth-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-server/auth-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-server/auth-server_test.iml" group="auth-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mysql-data/mysql-data.iml" filepath="$PROJECT_DIR$/.idea/modules/mysql-data/mysql-data.iml" group="mysql-data" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mysql-data/mysql-data_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mysql-data/mysql-data_main.iml" group="mysql-data" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mysql-data/mysql-data_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mysql-data/mysql-data_test.iml" group="mysql-data" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/social-click/social-click.iml" filepath="$PROJECT_DIR$/.idea/modules/social-click/social-click.iml" group="social-click" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/social-click/social-click_main.iml" filepath="$PROJECT_DIR$/.idea/modules/social-click/social-click_main.iml" group="social-click" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/social-click/social-click_test.iml" filepath="$PROJECT_DIR$/.idea/modules/social-click/social-click_test.iml" group="social-click" />

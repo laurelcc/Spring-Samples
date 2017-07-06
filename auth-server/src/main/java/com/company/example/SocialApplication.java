@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example;
+package com.company.example;
 
 import java.security.Principal;
 import java.util.ArrayList;

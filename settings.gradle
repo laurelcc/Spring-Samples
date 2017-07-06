@@ -4,4 +4,5 @@ include 'social-github'
 include 'auth-server'
 include 'upload-file'
 include 'web-security'
+include 'mysql-data'
 
