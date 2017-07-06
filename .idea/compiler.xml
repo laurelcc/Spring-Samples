@@ -27,6 +27,8 @@
       <module name="social-github_test" target="1.8" />
       <module name="upload-file_main" target="1.8" />
       <module name="upload-file_test" target="1.8" />
+      <module name="web-security_main" target="1.8" />
+      <module name="web-security_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -15,6 +15,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/upload-file/upload-file.iml" filepath="$PROJECT_DIR$/.idea/modules/upload-file/upload-file.iml" group="upload-file" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/upload-file/upload-file_main.iml" filepath="$PROJECT_DIR$/.idea/modules/upload-file/upload-file_main.iml" group="upload-file" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/upload-file/upload-file_test.iml" filepath="$PROJECT_DIR$/.idea/modules/upload-file/upload-file_test.iml" group="upload-file" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web-security/web-security.iml" filepath="$PROJECT_DIR$/.idea/modules/web-security/web-security.iml" group="web-security" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web-security/web-security_main.iml" filepath="$PROJECT_DIR$/.idea/modules/web-security/web-security_main.iml" group="web-security" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web-security/web-security_test.iml" filepath="$PROJECT_DIR$/.idea/modules/web-security/web-security_test.iml" group="web-security" />
     </modules>
   </component>
 </project>
