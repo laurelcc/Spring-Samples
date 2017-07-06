@@ -28,6 +28,14 @@ jar{
 
 repositories {
     mavenCentral()
+    maven { url "https://repository.jboss.org/nexus/content/repositories/releases" }
+    maven { url "http://oss.sonatype.org/content/repositories/vaadin-snapshots/" }
+}
+
+dependencyManagement {
+    imports {
+        mavenBom 'com.vaadin:vaadin-bom:8.0.0'
+    }
 }
 
 dependencies {
@@ -35,4 +43,6 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
     compile('org.springframework.boot:spring-boot-starter-thymeleaf')
     compile 'mysql:mysql-connector-java'
+
+    compile("com.vaadin:vaadin-spring-boot-starter")
 }

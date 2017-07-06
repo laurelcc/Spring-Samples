@@ -20,6 +20,12 @@ public class User {
         this.id = UUID.randomUUID().toString();
     }
 
+    public User(String name, String email){
+        this.id = UUID.randomUUID().toString();
+        this.name = name;
+        this.email = email;
+    }
+
     public String getId() {
         return id;
     }
