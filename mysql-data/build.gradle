@@ -7,15 +7,18 @@ buildscript {
     }
     repositories{
         mavenCentral()
+        jcenter()
     }
     dependencies{
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}.RELEASE")
+        classpath("org.asciidoctor:asciidoctor-gradle-plugin:1.5.3")
     }
 }
 
 apply plugin: 'idea'
 apply plugin: 'java'
 apply plugin: 'eclipse'
+apply plugin: 'org.asciidoctor.convert'
 apply plugin: 'org.springframework.boot'
 
 targetCompatibility = 1.8
@@ -38,6 +41,12 @@ dependencyManagement {
     }
 }
 
+asciidoctor {
+    sourceDir 'src/main/asciidoc'
+    attributes \
+      'snippets': file('target/snippets')
+}
+
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
@@ -45,4 +54,9 @@ dependencies {
     compile 'mysql:mysql-connector-java'
 
     compile("com.vaadin:vaadin-spring-boot-starter")
+
+    // tag::test[]
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+    testCompile("org.springframework.restdocs:spring-restdocs-mockmvc")
+    // end::test[]
 }
