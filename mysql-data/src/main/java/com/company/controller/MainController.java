@@ -4,10 +4,9 @@ import com.company.DO.User;
 import com.company.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 /**
  * Created by huanbenwang on 2017/7/6.
@@ -18,7 +17,7 @@ public class MainController {
     @Autowired
     private UserRepository userRepository;
 
-    @GetMapping(path = "/add")
+    @GetMapping(path = "add")
     public @ResponseBody String addNewUser(@RequestParam String name, @RequestParam String email){
         User n = new User();
         n.setName(name);
@@ -28,9 +27,21 @@ public class MainController {
         return "Saved";
     }
 
-    @GetMapping(path="/all")
+    @GetMapping(path="all")
     public @ResponseBody Iterable<User> getAllUsers() {
         return userRepository.findAll();
+    }
+
+    @GetMapping(path = "names")
+    @ResponseBody
+    public List<User> getUsersByName(@RequestParam(value = "name") String firstName){
+        return userRepository.findByNameStartsWithIgnoreCase(firstName);
+    }
+
+    @GetMapping(path = "ids/{id}")
+    @ResponseBody
+    public List<User> getUsersById(@PathVariable(name = "id") String id){
+        return userRepository.findByIdStartsWithIgnoreCase(id);
     }
 
 }

@@ -18,7 +18,6 @@ buildscript {
 apply plugin: 'idea'
 apply plugin: 'java'
 apply plugin: 'eclipse'
-apply plugin: 'org.asciidoctor.convert'
 apply plugin: 'org.springframework.boot'
 
 targetCompatibility = 1.8
@@ -35,17 +34,11 @@ repositories {
     maven { url "http://oss.sonatype.org/content/repositories/vaadin-snapshots/" }
 }
 
-dependencyManagement {
-    imports {
-        mavenBom 'com.vaadin:vaadin-bom:8.0.0'
-    }
-}
-
-asciidoctor {
-    sourceDir 'src/main/asciidoc'
-    attributes \
-      'snippets': file('target/snippets')
-}
+//dependencyManagement {
+//    imports {
+//        mavenBom 'com.vaadin:vaadin-bom:8.0.0'
+//    }
+//}
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
@@ -53,10 +46,5 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-thymeleaf')
     compile 'mysql:mysql-connector-java'
 
-    compile("com.vaadin:vaadin-spring-boot-starter")
-
-    // tag::test[]
-    testCompile("org.springframework.boot:spring-boot-starter-test")
-    testCompile("org.springframework.restdocs:spring-restdocs-mockmvc")
-    // end::test[]
+    compile('org.springframework.boot:spring-boot-starter-cache')
 }
